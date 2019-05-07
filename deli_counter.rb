@@ -8,6 +8,6 @@ def line(line)
     ordered_list = line.map.each_with_index do |person, index|
     person = "#{index+1}. #{person}"
     end
-    puts "The line is currently #{ordered_list.join(", ")}."
+    puts "The line is currently: #{ordered_list.join(", ")}."
   end
 end
