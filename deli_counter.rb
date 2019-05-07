@@ -11,3 +11,5 @@ def line(line)
     puts "The line is currently: #{ordered_list.join(" ")}"
   end
 end
+
+def take_a_number()
